@@ -3,24 +3,24 @@
 <body>
 
 <?php
-$getalEen = 6;
-$getalTwee = 9;
-echo $getalEen + $getalTwee;
+$getal1 = 8;
+$getal2 = 3;
+echo $getal1 + $getal2;
 echo "<br>";
 
-$getalEen = 4;
-$getalTwee = 20;
-echo $getalEen - $getalTwee;
+$getal1 = 2;
+$getal2 = 55;
+echo $getal1 - $getal2;
 echo "<br>";
 
-$getalEen = 8;
-$getalTwee = 2;
-echo $getalEen * $getalTwee;
+$getal1 = 11;
+$getal2 = 665;
+echo $getal1 * $getal2;
 echo "<br>";
 
-$getalEen = 2;
-$getalTwee = 10;
-echo $getalEen / $getalTwee;
+$getal1 = 6;
+$getal2 = 2;
+echo $getal1 / $getal2;
 
 ?>
 </body>
