@@ -2,23 +2,43 @@
 <html>
 <body>
 <?php
-$test1= 9;
-$test2= "text noob";
-var_dump($test1 == $test2);
+$test1 = 10;
+$test2 = 6;
+
+if($test1 == $test2){
+    echo"Gelijk";
+}
+
 echo "<br>";
-var_dump($test1 === $test2);
+if($test1 != $test2){
+    echo"Ongelijk";
+}
+
 echo "<br>";
-var_dump($test1 != $test2);
+if($test1 === $test2){
+    echo"Indentiek";
+}
+
 echo "<br>";
-var_dump($test1 < $test2);
+if($test1 > $test2) {
+    echo"Test1 is groter than test2";
+}
+
 echo "<br>";
-var_dump($test1 > $test2);
+if($test1 < $test2){
+    echo"Test1 is kleiner dan tset2";
+}
+
 echo "<br>";
-var_dump($test1 >= $test2);
+if($test1 >= $test2){
+    echo"Test1 is groter of gelijk aan test2";
+}
+
 echo "<br>";
-var_dump($test1 <> $test2);
-echo "<br>";
-var_dump($test1 >= $test2);
+if($test1 <= $test2){
+    echo"test1 is kleiner of gelijk aan test2";
+}
+
 ?>
 </body>
 </html>
