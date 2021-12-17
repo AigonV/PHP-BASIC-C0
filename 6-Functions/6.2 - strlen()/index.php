@@ -3,8 +3,8 @@
 <body>
 <?php
 function mijnNaamIsGroot(){
-    $voornaam = "Aydin";
-    $achternaam = "Maleki";
+    $voornaam = "Mohammed";
+    $achternaam = "Ahmed";
     $geheleNaam= "Mijn naam is $voornaam $achternaam";
     echo strtoupper($geheleNaam);
 }
